@@ -14,6 +14,14 @@ public class Employe {
     private String email;
     private String numtlf;
 
+    public Employe(){};
+    public Employe(int id, String name, String email, String numtlf) {
+        this.id = id;
+        this.name = name;
+        this.email = email;
+        this.numtlf = numtlf;
+    }
+
     public int getId() {
         return id;
     }
